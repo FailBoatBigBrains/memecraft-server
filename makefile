@@ -65,3 +65,6 @@ dump:
 
 restore:
 	-$(COMPOSER) exec $(MINECRAFT_SERVICE_NAME) bash -c "rsync -r /dumps/* /data"
+
+ngrok:
+	ngrok tcp 25565

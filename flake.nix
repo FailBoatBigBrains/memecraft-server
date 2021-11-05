@@ -49,6 +49,7 @@
           buildInputs = with pkgsAllowUnfree; [
             gnumake
             hack
+            ngrok
             podman-rootless.defaultPackage.${system}
           ];
 
